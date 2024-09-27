@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="envo.css">
+    <title>Happy Birthday  &#128151;</title>
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper flap">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Dear</strong>
+                        <p>
+                         Naan enn onnaku frnd ah kedachen nee enennaku friend ah kedacha nu la ennaku theriyala but somehow we met,talked and now here we are as a bestfriends.<br>
+                         Naa onna epidi purinju vachurken nu la ennaku theriyala but i love you more than anyone nu matum theriyum.<br>
+                         HAPPY BIRTHDAY &#128151;
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click' , () =>{
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
